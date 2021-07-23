@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        >
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="전체" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="등" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="가슴" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="어깨" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="이두" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="삼두" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="전완근" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="승모근" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="상체" />
+    </LinearLayout>
+</HorizontalScrollView>
